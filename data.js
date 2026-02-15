@@ -113,7 +113,7 @@ const portfolioData = {
             technologies: ["Python", "Deep Learning", "LLM"],
             github: "https://github.com/flex3-org/smeek",
             demo: "https://smeek.vercel.app/",
-            image: "https://private-user-images.githubusercontent.com/92196705/363511388-e72a13e8-d12f-43fc-b33e-32c30c7f4edd.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzExNjg2MTYsIm5iZiI6MTc3MTE2ODMxNiwicGF0aCI6Ii85MjE5NjcwNS8zNjM1MTEzODgtZTcyYTEzZTgtZDEyZi00M2ZjLWIzM2UtMzJjMzBjN2Y0ZWRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMjE1VDE1MTE1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY3OTk5OTNmMWUxYjkxYjE5NDFiMWFmMGYwNGZlMWUwOTNjZTdhZWRkMTI0OWE0YzdkNThiZjUzMGJkMzJlNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8PwwqNimS0uwDnyxEXs0SLypwY8HAp-SF-4Xps8yltA",
+            image: "https://i.postimg.cc/7YMWfvVL/Screenshot-2026-02-15-at-9-59-08-PM.png",
             featured: true
         },
         {
