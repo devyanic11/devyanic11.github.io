@@ -42,7 +42,7 @@ const portfolioData = {
     techStack: {
         "AI / ML": ["Machine Learning", "Deep Learning", "Agentic AI", "NLP", "LLMs"],
         "Languages": ["Java", "C++", "Python", "JavaScript", "Bash", "SQL"],
-        "Tools & Platforms": ["Git", "Linux", "CI/CD", "Playwright", "Docker"]
+        "Tools & Platforms": ["Git", "Linux", "CI/CD", "Playwright", "Docker", "AWS", "Azure"]
     },
 
     achievements: [{
