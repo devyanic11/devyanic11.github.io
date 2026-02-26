@@ -5,7 +5,6 @@ A fast, static portfolio website that works perfectly on GitHub Pages. No build 
 ## Features
 
 - ✅ **Fast & Static** - Pure HTML/CSS/JS, no runtime backend
-- ✅ **Data-Driven** - All content in `data.js` for easy updates
 - ✅ **GitHub Pages Ready** - Works out of the box
 - ✅ **Minimal & Clean** - Black and white design
 - ✅ **Responsive** - Works on all devices
