@@ -19,9 +19,16 @@ const portfolioData = {
             achievements: [
                 "Built a utility to validate APIs via Swagger UI, reducing manual API verification effort by ~70–80% during testing cycles",
                 "Added REST API tests to the existing framework, enabling automated validation during every build and regression run",
-                "Cut repetitive manual checks from hours to minutes per feature by enabling reusable automated test execution"
+                "Cut repetitive manual checks from hours to minutes per feature by enabling reusable automated test execution",
             ],
-            technologies: ["Java", "Playwright", "Gradle", "REST APIs", "CI/CD", "Jenkins"]
+            technologies: [
+                "Java",
+                "Playwright",
+                "Gradle",
+                "REST APIs",
+                "CI/CD",
+                "Jenkins",
+            ],
         },
         {
             title: "AI Research Intern",
@@ -33,51 +40,57 @@ const portfolioData = {
                 "Designed and implemented a backend pipeline to index and retrieve 5,000+ technical documents for structured search and access",
                 "Built preprocessing workflows to extract and organize metadata from large unstructured datasets",
                 "Optimized query handling and storage access to improve retrieval efficiency and response consistency",
-                "Converted loosely defined research requirements into a working software prototype for practical usage"
+                "Converted loosely defined research requirements into a working software prototype for practical usage",
             ],
-            technologies: ["Python", "Langchain", "Tensorflow", "MongoDB"]
-        }
+            technologies: ["Python", "Langchain", "Tensorflow", "MongoDB"],
+        },
     ],
 
     techStack: {
-        "AI / ML": ["Machine Learning", "Deep Learning", "Agentic AI", "NLP", "LLMs"],
-        "Languages": ["Java", "C++", "Python", "JavaScript", "Bash", "SQL"],
-        "Tools & Platforms": ["Git", "Linux", "CI/CD", "Playwright", "Docker"]
+        "AI / ML": [
+            "Machine Learning",
+            "Deep Learning",
+            "Agentic AI",
+            "NLP",
+            "LLMs",
+        ],
+        Languages: ["Java", "C++", "Python", "JavaScript", "Bash", "SQL"],
+        "Tools & Platforms": ["Git", "Linux", "CI/CD", "Playwright", "Docker"],
     },
 
     achievements: [{
             title: "Envio Track Winner",
             organization: "ETHGlobal Online",
             description: "Built Syntra, an AI + Hypersync powered system that makes blockchain data instantly searchable and queryable, enabling structured retrieval from large on-chain datasets",
-            url: "https://ethglobal.com/showcase/syntra-gxpyr"
+            url: "https://ethglobal.com/showcase/syntra-gxpyr",
         },
         {
             title: "First Runner-Up",
             organization: "Logithon National Hackathon",
             description: "Developed an automated PDF-to-JSON invoice parser that extracted structured billing data and reduced manual logistics processing effort by ~60%",
-            url: "https://logithon.ai/"
+            url: "https://logithon.ai/",
         },
         {
             title: "Published Research Paper",
             organization: "Taylor & Francis — Intelligent Computing and Communication Techniques",
             description: "Authored research on optimizing AI training and inference efficiency to reduce computational energy footprint in practical ML systems",
-            url: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530176-116/optimizing-ai-sustainability-reducing-energy-footprint-training-inference-green-computing-pramod-aswale-devyani-chavan-santoshkumar-biradar-sunita-vani-sachin-dada-shinde-tanmay-bharambe" // Add URL if you have a link, or remove this line
+            url: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003530176-116/optimizing-ai-sustainability-reducing-energy-footprint-training-inference-green-computing-pramod-aswale-devyani-chavan-santoshkumar-biradar-sunita-vani-sachin-dada-shinde-tanmay-bharambe", // Add URL if you have a link, or remove this line
         },
         {
             title: "Technical Speaker & Mentor",
             organization: "Peer Teaching Program",
-            description: "Taught Quantum Computing concepts to 100+ students and conducted hands-on technical workshops and speaker sessions"
+            description: "Taught Quantum Computing concepts to 100+ students and conducted hands-on technical workshops and speaker sessions",
         },
         {
             title: "Developer Community Engagement",
             organization: "GDG Cloud Pune, FOSS United Pune, GDGoC WOW Pune",
-            description: "Moderated technical panel discussions and coordinated a 1,000+ attendee developer conference with industry speakers"
+            description: "Moderated technical panel discussions and coordinated a 1,000+ attendee developer conference with industry speakers",
         },
         {
             title: "Community & Developer Programs Leadership",
             organization: "Google Developer Groups / Microsoft Learn Student Ambassador / Code for GovTech",
-            description: "Led campus technical initiatives and organized 10+ large-scale developer events, contributing to 6M+ community reach while supporting open civic-tech and developer ecosystem programs"
-        }
+            description: "Led campus technical initiatives and organized 10+ large-scale developer events, contributing to 6M+ community reach while supporting open civic-tech and developer ecosystem programs",
+        },
     ],
 
     education: [{
@@ -87,25 +100,41 @@ const portfolioData = {
         period: "2022 — 2026",
         gpa: "8.99/10.0",
         description: "Graduated with honors. Focused on software engineering and data structures. Led multiple research projects.",
-        coursework: ["Data Structures", "Software Engineering", "Database Systems", "Operating Systems", "Computer Networks"]
-    }],
+        coursework: [
+            "Data Structures",
+            "Software Engineering",
+            "Database Systems",
+            "Operating Systems",
+            "Computer Networks",
+        ],
+    }, ],
 
     projects: [{
+            title: "AI Tweet Engine",
+            description: "Automated AI-driven tweet engine that converts realtime data from news, Hacker News discussions, and trending ML tweets into opinionated, human-sounding tech tweets, then posts them to X and mirrors them to Telegram with automated quality scoring and rewriting.",
+            technologies: ["Python", "Twitter API", "Telegram Bot", "GitHub Actions", "Cloudflare Workers", "Web Scraping"],
+            github: "https://github.com/devyanic11/tweetbot",
+            demo: "",
+            image: "https://i.postimg.cc/cJxR1db9/Screenshot-2026-03-12-at-11-36-28-PM.png",
+            featured: true,
+        },
+        {
             title: "Syntra",
             description: "AI-powered blockchain search system built at ETHGlobal that enables structured querying and instant retrieval from on-chain data using Hypersync indexing.",
             technologies: ["AI", "Blockchain", "Indexing", "Search"],
             github: "https://github.com/flex3-org/syntra",
             demo: "https://ethglobal.com/showcase/syntra-gxpyr",
             image: "https://i.postimg.cc/43SBCWx9/default.jpg",
-            featured: true
-        }, {
+            featured: true,
+        },
+        {
             title: "EMIX",
             description: "Developed an AI-powered MJML email generator, reducing email design time by 85% for non-technical users.",
             technologies: ["Python", "Deep Learning", "LLM"],
             github: "https://github.com/flex3-org/emix",
             demo: "https://www.emixhq.live/",
             image: "https://i.postimg.cc/nhL4Hq5B/Screenshot-2026-02-15-at-8-55-34-PM.png",
-            featured: true
+            featured: true,
         },
         {
             title: "SMEEK",
@@ -113,8 +142,8 @@ const portfolioData = {
             technologies: ["Python", "Deep Learning", "LLM"],
             github: "https://github.com/flex3-org/smeek",
             demo: "https://smeek.vercel.app/",
-            image: "https://private-user-images.githubusercontent.com/92196705/363511388-e72a13e8-d12f-43fc-b33e-32c30c7f4edd.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzExNjg2MTYsIm5iZiI6MTc3MTE2ODMxNiwicGF0aCI6Ii85MjE5NjcwNS8zNjM1MTEzODgtZTcyYTEzZTgtZDEyZi00M2ZjLWIzM2UtMzJjMzBjN2Y0ZWRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMjE1VDE1MTE1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY3OTk5OTNmMWUxYjkxYjE5NDFiMWFmMGYwNGZlMWUwOTNjZTdhZWRkMTI0OWE0YzdkNThiZjUzMGJkMzJlNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8PwwqNimS0uwDnyxEXs0SLypwY8HAp-SF-4Xps8yltA",
-            featured: true
+            image: "https://i.postimg.cc/7YMWfvVL/Screenshot-2026-02-15-at-9-59-08-PM.png",
+            featured: true,
         },
         {
             title: "Ask Krishna",
@@ -123,7 +152,7 @@ const portfolioData = {
             github: "https://github.com/devyanic11/Ask-Krishna",
             demo: "https://ask-krishna-here.vercel.app/",
             image: "https://i.postimg.cc/m2tJt10Z/Screenshot-2026-02-15-at-8-45-03-PM.png",
-            featured: false
+            featured: false,
         },
         {
             title: "Vaylen",
@@ -132,8 +161,8 @@ const portfolioData = {
             github: "https://github.com/devyanic11/outfits",
             demo: "https://vaylen.vercel.app/",
             image: "https://i.postimg.cc/JzjTkNxY/Screenshot-2026-02-15-at-8-49-06-PM.png",
-            featured: false
-        }
+            featured: false,
+        },
     ],
 
     blogs: [{
@@ -143,7 +172,7 @@ const portfolioData = {
             readTime: "10 min read",
             link: "https://devyanichavan.hashnode.dev/logistic-regression-perceptron-trick",
             category: "Machine Learning",
-            featured: true
+            featured: true,
         },
         {
             title: "Multiple Linear Regression",
@@ -152,7 +181,7 @@ const portfolioData = {
             readTime: "8 min read",
             link: "https://devyanichavan.hashnode.dev/multiple-linear-regression",
             category: "Machine Learning",
-            featured: true
+            featured: true,
         },
         {
             title: "Regions Transformation on Line",
@@ -161,7 +190,7 @@ const portfolioData = {
             readTime: "7 min read",
             link: "https://devyanichavan.hashnode.dev/regions-transformation-on-line",
             category: "Machine Learning",
-            featured: false
+            featured: false,
         },
         {
             title: "Linear Regression — As Simple As It Is",
@@ -170,7 +199,7 @@ const portfolioData = {
             readTime: "6 min read",
             link: "https://devyanichavan.hashnode.dev/linear-regression-as-simple-as-it-is",
             category: "Machine Learning",
-            featured: false
+            featured: false,
         },
         {
             title: "Feature Transformations with Ensembles of Trees",
@@ -179,7 +208,7 @@ const portfolioData = {
             readTime: "7 min read",
             link: "https://www.geeksforgeeks.org/machine-learning/feature-transformations-with-ensembles-of-trees-in-scikit-learn/",
             category: "Machine Learning",
-            featured: false
+            featured: false,
         },
         {
             title: "Action Selection in Intelligent Agents",
@@ -188,7 +217,7 @@ const portfolioData = {
             readTime: "6 min read",
             link: "https://www.geeksforgeeks.org/artificial-intelligence/action-selection-in-intelligent-agents/",
             category: "Artificial Intelligence",
-            featured: false
+            featured: false,
         },
         {
             title: "Distributed Training with TensorFlow",
@@ -197,7 +226,7 @@ const portfolioData = {
             readTime: "8 min read",
             link: "https://www.geeksforgeeks.org/artificial-intelligence/distributed-training-with-tensorflow/",
             category: "Deep Learning",
-            featured: false
+            featured: false,
         },
         {
             title: "Multi-Metric Evaluation in GridSearchCV",
@@ -206,7 +235,7 @@ const portfolioData = {
             readTime: "7 min read",
             link: "https://www.geeksforgeeks.org/machine-learning/demonstration-of-multi-metric-evaluation-on-cross_val_score-and-gridsearchcv-in-scikit-learn/",
             category: "Machine Learning",
-            featured: false
-        }
-    ]
+            featured: false,
+        },
+    ],
 };
