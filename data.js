@@ -47,15 +47,9 @@ const portfolioData = {
     ],
 
     techStack: {
-        "AI / ML": [
-            "Machine Learning",
-            "Deep Learning",
-            "Agentic AI",
-            "NLP",
-            "LLMs",
-        ],
-        Languages: ["Java", "C++", "Python", "JavaScript", "Bash", "SQL"],
-        "Tools & Platforms": ["Git", "Linux", "CI/CD", "Playwright", "Docker"],
+        "AI / ML": ["Machine Learning", "Deep Learning", "Agentic AI", "NLP", "LLMs"],
+        "Languages": ["Java", "C++", "Python", "JavaScript", "Bash", "SQL"],
+        "Tools & Platforms": ["Git", "Linux", "CI/CD", "Playwright", "Docker", "AWS", "Azure"]
     },
 
     achievements: [{
@@ -143,7 +137,7 @@ const portfolioData = {
             github: "https://github.com/flex3-org/smeek",
             demo: "https://smeek.vercel.app/",
             image: "https://i.postimg.cc/7YMWfvVL/Screenshot-2026-02-15-at-9-59-08-PM.png",
-            featured: true,
+            featured: true
         },
         {
             title: "Ask Krishna",
@@ -235,7 +229,7 @@ const portfolioData = {
             readTime: "7 min read",
             link: "https://www.geeksforgeeks.org/machine-learning/demonstration-of-multi-metric-evaluation-on-cross_val_score-and-gridsearchcv-in-scikit-learn/",
             category: "Machine Learning",
-            featured: false,
-        },
-    ],
+            featured: false
+        }
+    ]
 };
